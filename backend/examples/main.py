@@ -4,7 +4,7 @@ from google.genai import Client
 from google.genai.types import  (FunctionDeclaration, Tool, GenerateContentConfig, Part, Content, GenerateContentResponse)
 import time
 from pydantic_ai import format_as_xml
-from prompts.System_prompts import prompt
+from src.my_api.agents.prompts import prompt
 import json
 
 from schemas.paciente import Paciente
